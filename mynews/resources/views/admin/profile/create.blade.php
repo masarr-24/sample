@@ -25,19 +25,19 @@
                     <div class="form-group row">
                         <label class="col-md-2" for="gender">性別</label>
                         <div class="col-md-10">
-                            <textarea class="form-control" name="gender" rows="20">{{ old('gender') }}</textarea>
+                            <textarea class="form-control" name="gender" rows="1">{{ old('gender') }}</textarea>
                         </div>
                     </div>
                     <div class="form-group row">
                         <label class="col-md-2" for="hobby">趣味</label>
                         <div class="col-md-10">
-                          <textarea class="form-control" name="hobby" rows="20">{{ old('hobby') }}</textarea>
+                          <textarea class="form-control" name="hobby" rows="2">{{ old('hobby') }}</textarea>
                         </div>
                     </div>
                     <div class="form-group row">
                         <label class="col-md-2" for="intoroduction">自己紹介欄</label>
                         <div class="col-md-10">
-                          <textarea class="form-control" name="introduction" rows="20">{{ old('intoroduction') }}</textarea>
+                          <textarea class="form-control" name="introduction" rows="10">{{ old('intoroduction') }}</textarea>
                         </div>
                     </div>
                     {{ csrf_field() }}
