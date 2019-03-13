@@ -17,8 +17,8 @@ class CreateProfilesTable extends Migration
             $table->increments('id');
             $table->string('name'); // プロフィールの名前を保存するカラム
             $table->string('gender');  // プロフィールの性別を保存するカラム
-            $table->string('hoby')->nullable();  // プロフィールの趣味を保存するカラム
-            $table->string('intoduction')->nullable();  // プロフィールの自己紹介を保存するカラム
+            $table->string('hobby')->nullable();  // プロフィールの趣味を保存するカラム
+            $table->string('introduction')->nullable();  // プロフィールの自己紹介を保存するカラム
             $table->timestamps();
         });
     }

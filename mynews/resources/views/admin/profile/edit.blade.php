@@ -23,13 +23,13 @@
                     <div class="form-group row">
                         <label class="col-md-2" for="gender">性別</label>
                         <div class="col-md-10">
-                            <textarea class="form-control" name="gender" rows="1">{{ $profiles_form->gender }}</textarea>
+                            <input type="text" class="form-control" name="gender" value="{{ $profiles_form->gender }}">
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label class="col-md-2" for="hoby">趣味</label>
+                        <label class="col-md-2" for="hobby">趣味</label>
                         <div class="col-md-10">
-                            <input type="text" class="form-control" name="hoby" value="{{ $profiles_form->hoby }}">
+                            <textarea class="form-control" name="hobby" rows="10">{{ $profiles_form->hobby }}</textarea>
                         </div>
                     </div>
                     <div class="form-group row">
